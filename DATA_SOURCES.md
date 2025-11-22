@@ -1,6 +1,6 @@
 # Data Sources & Disk Notes
 
-- Dataset: <name> — <link> — License/DUA: <text>
-- Subset downloaded: <N subjects/sessions> (list IDs if small)
-- Disk budget (target): raw ~<X GB>, derivatives ~<Y GB>
-- Notes: use BIDS layout when possible; do NOT commit raw data.
+- Dataset: **Brainstorm “Median-nerve”** — link: <oficial> — License: docente.
+- Subset downloaded: 1 subject (paquete mínimo).
+- Disk budget: raw pequeño; derivados ligeros (report + PNGs).
+- Notes: protocolo Brainstorm + (opt.) anatomía FreeSurfer; no subir raw.
