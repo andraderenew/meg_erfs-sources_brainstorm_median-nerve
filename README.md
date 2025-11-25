@@ -1,6 +1,6 @@
 # MEG — ERFs, Sources & TF (Brainstorm Median-nerve)
 [![License](https://img.shields.io/github/license/andraderenew/meg_erfs-sources_brainstorm_median-nerve)](LICENSE)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXXX-blue)](#cite-this-work)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17715113-blue)](https://doi.org/10.5281/zenodo.17715113)
 [![Pages](https://img.shields.io/website?url=https%3A%2F%2Fandraderenew.github.io%2Fmeg_erfs-sources_brainstorm_median-nerve%2F)](https://andraderenew.github.io/meg_erfs-sources_brainstorm_median-nerve/)
 ![Release](https://img.shields.io/github/v/release/andraderenew/meg_erfs-sources_brainstorm_median-nerve?include_prereleases)
 ![Last commit](https://img.shields.io/github/last-commit/andraderenew/meg_erfs-sources_brainstorm_median-nerve)

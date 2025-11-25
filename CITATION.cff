@@ -10,3 +10,5 @@ abstract: "Brainstorm median-nerve tutorial: ERFs, source imaging (dSPM/sLORETA)
 license: "MIT"
 repository-code: "https://github.com/andraderenew/meg_erfs-sources_brainstorm_median-nerve"
 url: "https://scholar.google.es/citations?hl=es&user=Nl3ApFEAAAAJ"
+
+doi: "10.5281/zenodo.17715113"
