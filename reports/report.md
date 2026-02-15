@@ -14,8 +14,9 @@ Pipeline:
 - <step 3>
 
 ## Results
-- Fig 1: <what it shows> (see `results/figures/fig1.png`)
-- Table 1: <optional> (see `results/tables/table1.csv`)
+- Fig 1: Sensor-level topography at ~20 ms (N20m) for right median-nerve stimulation (see `results/figures/Fig1.png`).
+- The topography shows a clear dipolar pattern consistent with an early somatosensory response.
+- Note: tutorial data / single-subject demo; this is a reproducibility portfolio entry.
 
 ## QC
 <motion/outliers/surface failures/bad channels/etc.>
