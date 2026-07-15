@@ -1,44 +1,60 @@
-# MEG: ERFs, Sources & TF (Brainstorm Median-nerve)
+# MEG: ERFs, Sources & Time–Frequency (Brainstorm Median-nerve)
 
-**Goal:** Reproduce the Brainstorm median-nerve tutorial: ERFs, source imaging (dSPM/sLORETA), and time–frequency at sources.
+**Goal:** Reproduce a compact Brainstorm median-nerve tutorial workflow and document sensor-level, source-level, and time–frequency results for a single-subject MEG portfolio entry.
 
 ---
 
 ## Snapshot
-- **Dataset:** Brainstorm “Median-nerve” (didactic, one subject)
-- **Local subset:** 1 subject · **Disk:** small (minutes of MEG)
-- **Tools:** Brainstorm (+ FreeSurfer anatomy if available)
-- **Status:** <planned / in progress / complete>
-- **Last updated:** <YYYY-MM-DD>
+- **Dataset:** Brainstorm Median-nerve tutorial dataset
+- **Local subset:** 1 subject
+- **Condition reported here:** Left median-nerve trials
+- **Tools:** MATLAB + Brainstorm
+- **Status:** Complete — initial sensor, source, and time–frequency results
+- **Last updated:** 2026-07-15
 
 ---
 
 ## Data
-- **Source:** Brainstorm tutorial data (public).  
-- **What I downloaded:** the minimal package.  
-- **Layout:** Brainstorm protocol folder.
+- **Source:** Brainstorm tutorial data
+- **What was used:** the tutorial dataset imported into a local Brainstorm protocol
+- **Data policy:** raw MEG, anatomy, Brainstorm database files, and large derivatives are not committed
+
+See `../DATA_SOURCES.md` for provenance and data-handling notes.
 
 ---
 
-## Pipeline (high-level)
-1) Import anatomy / coreg MEG-MRI  
-2) Forward model (BEM/overlapping spheres)  
-3) Inverse (dSPM/sLORETA), ERFs  
-4) TF in sources; optional connectivity
+## Pipeline
+1. Import the tutorial dataset into Brainstorm
+2. Epoch Left median-nerve events from -100 to 300 ms and compute the ERF average
+3. Inspect the early sensor-level response around 20 ms
+4. Estimate noise covariance from -100 to 0 ms
+5. Compute a minimum-norm inverse solution with dSPM
+6. Compute Morlet time–frequency power from 4 to 80 Hz at MEG 1133
+7. Export lightweight PNG results
 
 ---
 
-## Results (to be filled)
-- Figure: ERFs at sensor level  
-- Figure: source map at peak; TF plot
+## Results
+
+### Fig 1 — Sensor-level topography around 20 ms
+![Fig 1 — sensor-level topography](../results/figures/fig1.png)
+
+### Fig 2 — dSPM source reconstruction around 20 ms
+![Fig 2 — dSPM source reconstruction](../results/figures/fig2_sources_20ms.png)
+
+### Fig 3 — Morlet time–frequency power at MEG 1133
+![Fig 3 — Morlet time-frequency](../results/figures/fig3_timefrequency_sensor_MEG1133.png)
+
+The time–frequency result covers 4–80 Hz over -100 to 300 ms and is displayed as raw power without baseline normalization in the exported view.
 
 ---
 
 ## Reproducibility
-- Versions in `env/TOOL_VERSIONS.md`.  
-- Steps: “Follow Brainstorm pipeline → export report → figures.”  
-- Limitations: single-subject demo.
+- Software/environment information: `../env/TOOL_VERSIONS.md`
+- Mini-report: `../reports/report.md`
+- High-level rerun instructions: `../README.md`
+- Limitations: single-subject tutorial dataset; no group-level inference
 
 ---
 
-**Author:** Rene Andrade Rey · 🧪 ORCID: https://orcid.org/0000-0001-5627-579X · 🌐 Scholar: https://scholar.google.es/citations?hl=es&user=Nl3ApFEAAAAJ
+**Author:** Rene Andrade Rey · ORCID: https://orcid.org/0000-0001-5627-579X · Google Scholar: https://scholar.google.es/citations?hl=es&user=Nl3ApFEAAAAJ
