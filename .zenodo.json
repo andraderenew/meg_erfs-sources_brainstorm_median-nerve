@@ -1,0 +1,24 @@
+{
+  "creators": [
+    {
+      "name": "Andrade Rey, Rene",
+      "orcid": "0000-0001-5627-579X",
+      "type": "ProjectMember"
+    }
+  ],
+  "title": "MEG — ERFs, Sources & TF (Brainstorm Median-nerve)",
+  "description": "Brainstorm median-nerve tutorial reproduction including sensor-level event-related fields, dSPM source imaging, sensor-level Morlet time-frequency power, quality-control outputs, and reproducible documentation.",
+  "version": "0.2.1",
+  "access_right": "open",
+  "keywords": [
+    "MEG",
+    "Brainstorm",
+    "event-related fields",
+    "dSPM",
+    "time-frequency analysis",
+    "neuroimaging"
+  ],
+  "license": "mit",
+  "upload_type": "software",
+  "language": "eng"
+}
