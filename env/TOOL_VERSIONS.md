@@ -28,3 +28,11 @@ These packages are part of the broader neuroimaging portfolio environment; they 
 - **PETPVE12 (SPM):** 1.0
 
 Documentation updated: 2026-07-15
+
+## Reproducibility boundary
+
+The exact Brainstorm build/date and exact operating-system distribution used for the original analysis were not preserved.
+
+The repository also does not archive the Brainstorm protocol/database, numerical source files, time-frequency matrices, or processing scripts.
+
+Accordingly, this portfolio entry documents procedural reproducibility and qualitative exported results rather than an independently verified numerical rerun.

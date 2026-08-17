@@ -30,7 +30,7 @@ Pipeline:
 
 ## QC
 - Stimulation onset was checked at **t = 0 ms**.
-- The early sensor-level response and topographic pattern were visually inspected around **20 ms**.
+- The early sensor-level response and topographic pattern were visually inspected around **20 ms**; the figure is described conservatively without independently assigning a named evoked-field component.
 - The dSPM source result was inspected at approximately the same early-response time point.
 - The Morlet result was checked across the full **4–80 Hz** and **-100 to 300 ms** display range.
 
@@ -43,3 +43,5 @@ Pipeline:
 - Software and environment information: `env/TOOL_VERSIONS.md`.
 - High-level rerun steps: `README.md`.
 - Data provenance and policy: `DATA_SOURCES.md`.
+- Formal figure review: `visual_audit_2026-08-17.md`.
+- Reproducibility is procedural/documentary rather than an independent numerical replication because the Brainstorm database, numerical derivatives, processing scripts, and exact Brainstorm build are not archived.
