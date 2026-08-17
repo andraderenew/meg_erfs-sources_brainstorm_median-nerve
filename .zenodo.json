@@ -7,7 +7,7 @@
     }
   ],
   "title": "MEG — ERFs, source imaging and time-frequency analysis with Brainstorm",
-  "description": "Reproducible Brainstorm median-nerve workflow including sensor-level event-related fields, dSPM source imaging, sensor-level Morlet time-frequency power, quality-control outputs, and reproducible documentation.",
+  "description": "Documented Brainstorm median-nerve tutorial reproduction including sensor-level event-related fields, a dSPM source-space result, sensor-level time-frequency power, quality-control figures, and methodological documentation. Exact numerical replication is not claimed because the Brainstorm database, numerical derivatives, processing scripts, and exact Brainstorm build are not archived.",
   "version": "0.2.1",
   "upload_type": "software",
   "access_right": "open",

@@ -6,7 +6,7 @@ authors:
   - family-names: "Andrade Rey"
     given-names: "Rene"
     orcid: "https://orcid.org/0000-0001-5627-579X"
-abstract: "Reproducible Brainstorm median-nerve workflow including sensor-level event-related fields, dSPM source imaging, sensor-level Morlet time-frequency power, quality-control outputs, and reproducible documentation."
+abstract: "Documented Brainstorm median-nerve tutorial reproduction including sensor-level event-related fields, a dSPM source-space result, sensor-level time-frequency power, quality-control figures, and methodological documentation. Exact numerical replication is not claimed because the Brainstorm database, numerical derivatives, processing scripts, and exact Brainstorm build are not archived."
 license: "MIT"
 repository-code: "https://github.com/andraderenew/meg_erfs-sources_brainstorm_median-nerve"
 url: "https://github.com/andraderenew/meg_erfs-sources_brainstorm_median-nerve"
