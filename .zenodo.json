@@ -8,7 +8,7 @@
   ],
   "title": "MEG — ERFs, source imaging and time-frequency analysis with Brainstorm",
   "description": "Documented Brainstorm median-nerve tutorial reproduction including sensor-level event-related fields, a dSPM source-space result, sensor-level time-frequency power, quality-control figures, and methodological documentation. Exact numerical replication is not claimed because the Brainstorm database, numerical derivatives, processing scripts, and exact Brainstorm build are not archived.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "upload_type": "software",
   "access_right": "open",
   "license": "mit",
@@ -22,7 +22,7 @@
     "median nerve",
     "neuroimaging"
   ],
-  "notes": "Completed reproducible neuroimaging portfolio workflow.",
+  "notes": "Audited portfolio release. Public exported figures were reviewed for sensor-space, source-space, and time-frequency consistency. This repository supports procedural/documentary reproducibility; exact numerical replication is not claimed because the Brainstorm database, numerical derivatives, processing scripts, and exact Brainstorm build are not archived.",
   "related_identifiers": [
     {
       "identifier": "https://github.com/andraderenew/meg_erfs-sources_brainstorm_median-nerve",
