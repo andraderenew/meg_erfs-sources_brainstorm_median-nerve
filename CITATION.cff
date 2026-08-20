@@ -10,9 +10,8 @@ abstract: "Documented Brainstorm median-nerve tutorial reproduction including se
 license: "MIT"
 repository-code: "https://github.com/andraderenew/meg_erfs-sources_brainstorm_median-nerve"
 url: "https://github.com/andraderenew/meg_erfs-sources_brainstorm_median-nerve"
-version: "0.2.1"
-date-released: "2026-07-28"
-doi: "10.5281/zenodo.21650415"
+version: "0.2.2"
+date-released: "2026-08-20"
 keywords:
   - "MEG"
   - "Brainstorm"
