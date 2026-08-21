@@ -12,6 +12,7 @@ repository-code: "https://github.com/andraderenew/meg_erfs-sources_brainstorm_me
 url: "https://github.com/andraderenew/meg_erfs-sources_brainstorm_median-nerve"
 version: "0.2.2"
 date-released: "2026-08-20"
+doi: "10.5281/zenodo.22032447"
 keywords:
   - "MEG"
   - "Brainstorm"
