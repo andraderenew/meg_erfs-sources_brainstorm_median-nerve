@@ -75,5 +75,5 @@ Exact numerical reproduction is **not claimed** because the repository does not 
 - Limits: single-subject tutorial demonstration; qualitative exported results
 
 ## Cite this work
-- Concept DOI: **10.5281/zenodo.17715113**
+- Concept DOI: **10.5281/zenodo.17715112**
 - See `CITATION.cff` (GitHub also renders “Cite this repository”)
